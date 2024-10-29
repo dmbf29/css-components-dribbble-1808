@@ -1,0 +1,49 @@
+.card-images {
+  display: flex;
+}
+
+.card-images-first {
+  width: 50%;
+}
+
+.card-images-vertical {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-images-vertical img {
+  width: 100%;
+  object-fit: cover;
+  flex: 1;
+}
+
+.card-info {
+  display: flex;
+}
+
+.card-info-left {
+  width: 50%;
+
+}
+
+.card-info-right {
+  width: 50%;
+  text-align: right;
+  font-weight: bold;
+}
+
+.card-info-right i {
+  color: orange;
+}
+
+.card-info a {
+  padding: 16px 64px;
+  background-color: orange;
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 4px;
+}
+
+/* .card-info a: */
